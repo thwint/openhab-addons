@@ -135,7 +135,7 @@ In this case autoCoIoT should be disabled, CoIoT events will not work, because t
 
 Every device has a channel group `device` with the following channels:
 
-|Group     |Channel            |Type    |read-only|Desciption                                                                       |
+|Group     |Channel            |Type    |read-only|Description                                                                       |
 |----------|-------------------|--------|---------|---------------------------------------------------------------------------------|
 |device    |uptime             |Number  |yes      |Number of seconds since the device was powered up                                |
 |          |wifiSignal         |Number  |yes      |WiFi signal strength (4=excellent, 3=good, 2=not string, 1=unreliable, 0=none)   |
@@ -191,7 +191,7 @@ end
 
 ### Shelly 1 (thing-type: shelly1)
 
-|Group     |Channel      |Type     |read-only|Desciption                                                                       |
+|Group     |Channel      |Type     |read-only|Description                                                                       |
 |----------|-------------|---------|---------|---------------------------------------------------------------------------------|
 |relay     |output       |Switch   |r/w      |Controls the relay's output channel (on/off)                                     |
 |          |input        |Switch   |yes      |ON: Input/Button is powered, see General Notes on Channels                       |
@@ -202,7 +202,7 @@ end
 
 ### Shelly 1PM (thing-type: shelly1pm)
 
-|Group     |Channel      |Type     |read-only|Desciption                                                                       |
+|Group     |Channel      |Type     |read-only|Description                                                                       |
 |----------|-------------|---------|---------|---------------------------------------------------------------------------------|
 |relay     |output       |Switch   |r/w      |Controls the relay's output channel (on/off)                                     |
 |          |input        |Switch   |yes      |ON: Input/Button is powered, see General Notes on Channels                       |
@@ -220,7 +220,7 @@ end
 
 ### Shelly EM (thing-type: shellyem)
 
-|Group     |Channel      |Type     |read-only|Desciption                                                                       |
+|Group     |Channel      |Type     |read-only|Description                                                                       |
 |----------|-------------|---------|---------|---------------------------------------------------------------------------------|
 |relay     |output       |Switch   |r/w      |Controls the relay's output channel (on/off)                                     |
 |          |input        |Switch   |yes      |ON: Input/Button is powered, see General Notes on Channels                       |
@@ -240,7 +240,7 @@ end
 
 ### Shelly 3EM (thing-type: shellyem3)
 
-|Group     |Channel      |Type     |read-only|Desciption                                                                       |
+|Group     |Channel      |Type     |read-only|Description                                                                       |
 |----------|-------------|---------|---------|---------------------------------------------------------------------------------|
 |relay     |output       |Switch   |r/w      |Controls the relay's output channel (on/off)                                     |
 |          |input        |Switch   |yes      |ON: Input/Button is powered, see General Notes on Channels                       |
@@ -449,7 +449,7 @@ The Dimmer should be calibrated using the Shelly App.
 
  ## Shelly RGBW2 in Color Mode (thing-type: shellyrgbw2-color)
 
-|Group     |Channel      |Type     |read-only|Desciption                                                             |
+|Group     |Channel      |Type     |read-only|Description                                                             |
 |----------|-------------|---------|---------|-----------------------------------------------------------------------|
 |control   |power        |Switch   |r/w      |Switch light ON/OFF                                                    |
 |          |button       |Trigger  |yes      |Event trigger with payload SHORT_PRESSED or LONG_PRESSED (FW 1.5.6+)   |
@@ -471,7 +471,7 @@ The Dimmer should be calibrated using the Shelly App.
 
 ### Shelly RGBW2 in White Mode (thing-type: shellyrgbw2-white)
 
-|Group     |Channel      |Type     |read-only|Desciption                                                             |
+|Group     |Channel      |Type     |read-only|Description                                                             |
 |----------|-------------|---------|---------|-----------------------------------------------------------------------|
 |control   |input        |Switch   |yes      |State of Input                                                         |
 |channel1  |brightness   |Dimmer   |r/w      |Channel 1: Brightness: 0..100, control power state with ON/OFF         |
